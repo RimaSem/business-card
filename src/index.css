@@ -11,11 +11,18 @@ body {
   background: #23252c;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   width: 317px;
   background: #1a1b21;
+  margin: 44px;
+  border-radius: 10px;
 }
 
 .info {
@@ -108,4 +115,14 @@ body {
   color: #dcdcdc;
   line-height: 15px;
   margin-top: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px;
+  background: #161619;
+  margin-top: 30px;
+  border-radius: 0px 0px 10px 10px;
 }
